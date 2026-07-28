@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Meter : MonoBehaviour
 {
+    public int playerOneMeter;
+    public int PlayerTwoMeter;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +16,6 @@ public class Meter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 }
