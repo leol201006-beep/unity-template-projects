@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Accelerate : MonoBehaviour
 {
-    public int gas = 0;
+    public int gasOne = 0;
+    public int gasTwo = 0;
+    public Meter meter;
 
     // Start is called before the first frame update
     void Start()
@@ -16,8 +18,15 @@ public class Accelerate : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q)) {
-            gas += 1;
-            Debug.Log("Gas + 1");
+            gasOne += 1;
+            Debug.Log("Gas1 + 1");
+            meter.IncreaseOne();
         }
+        if (Input.GetKeyDown(KeyCode.U)) {
+            gasTwo += 1;
+            Debug.Log("Gas2 + 1");
+            meter.IncreaseTwo();
+        }
+        
     }
 }

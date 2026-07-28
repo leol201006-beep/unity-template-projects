@@ -5,7 +5,7 @@ using UnityEngine;
 public class Meter : MonoBehaviour
 {
     public int playerOneMeter;
-    public int PlayerTwoMeter;
+    public int playerTwoMeter;
 
     // Start is called before the first frame update
     void Start()
@@ -17,5 +17,14 @@ public class Meter : MonoBehaviour
     void Update()
     {
        
+    }
+    
+    public void IncreaseOne(){
+        playerOneMeter += 1;
+        playerTwoMeter -= 1;
+    }
+    public void IncreaseTwo(){
+        playerOneMeter -= 1;
+        playerTwoMeter += 1;
     }
 }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 596d2b5268dc28d4997f3cd7c3fd9a86
+guid: 1fc914c096cd12f4f875aaed3ea3db0a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3677972638274372117
-    second: muscle-car-76x76_0
+      213: -2202427465334744498
+    second: greenbar (3)_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: muscle-car-76x76_0
+      name: greenbar (3)_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 0
-        width: 52
-        height: 29
+        x: 9
+        y: 82
+        width: 110
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bedbc0a4f5735fcc0800000000000000
-      internalID: -3677972638274372117
+      spriteID: e4a9825a3e76f61e0800000000000000
+      internalID: -2202427465334744498
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      muscle-car-76x76_0: -3677972638274372117
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
