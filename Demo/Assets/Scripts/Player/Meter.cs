@@ -9,7 +9,7 @@ public class Meter : MonoBehaviour
 
     public int playerOneMeter;
     public int playerTwoMeter;
-    public int playerTranslate;
+    
     // Start is called before the first frame update
     void Start()
     {
