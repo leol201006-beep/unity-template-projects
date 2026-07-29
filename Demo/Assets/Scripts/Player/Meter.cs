@@ -19,7 +19,7 @@ public class Meter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerUno.velocity.x > 0)
+       /* if(playerUno.velocity.x > 0)
         {
             playerUno.velocity = new Vector2(playerUno.velocity.x - 0.1f,0);
         }
@@ -34,7 +34,7 @@ public class Meter : MonoBehaviour
         if(playerDos.velocity.x < 0)
         {
             playerDos.velocity = new Vector2(playerDos.velocity.x + 0.1f,0);
-        }
+        } */
     }
     
     public void IncreaseOne(){
