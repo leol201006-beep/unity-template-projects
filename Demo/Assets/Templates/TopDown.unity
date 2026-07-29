@@ -182,7 +182,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8.965283
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2832,6 +2832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerUno: {fileID: 1002103972}
   playerDos: {fileID: 666619037}
+  speed: 5
   playerOneMeter: 0
   playerTwoMeter: 0
 --- !u!4 &342395979
@@ -2867,7 +2868,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 10
+  m_LinearDrag: 5
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -2893,6 +2894,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82760e1892063984d85563a416d23925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playeronemeter: {fileID: 342395978}
+  playertwometer: {fileID: 342395978}
   gasOne: 0
   gasTwo: 0
   meter: {fileID: 342395978}
@@ -2958,6 +2961,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82760e1892063984d85563a416d23925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playeronemeter: {fileID: 342395978}
+  playertwometer: {fileID: 342395978}
   gasOne: 0
   gasTwo: 0
   meter: {fileID: 342395978}
@@ -2974,7 +2979,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 10
+  m_LinearDrag: 5
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
