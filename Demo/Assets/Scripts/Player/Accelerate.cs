@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Accelerate : MonoBehaviour
 {
+    public Meter playeronemeter;
+    public Meter playertwometer;
     public int gasOne = 0;
     public int gasTwo = 0;
     public Meter meter;
@@ -21,11 +23,22 @@ public class Accelerate : MonoBehaviour
             gasOne += 1;
             Debug.Log("Gas1 + 1");
             meter.IncreaseOne();
+
+            if(playeronemeter.playerOneMeter <= -10)
+            {
+                meter.BoostOne();
+            }
         }
+
         if (Input.GetKeyDown(KeyCode.U)) {
             gasTwo += 1;
             Debug.Log("Gas2 + 1");
             meter.IncreaseTwo();
+
+            if(playertwometer.playerTwoMeter <= -10)
+            {
+                meter.BoostTwo();
+            }
         }
         
     }
