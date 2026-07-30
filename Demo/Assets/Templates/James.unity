@@ -467,6 +467,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5833933183029564935, guid: fe0aa44321169204788a54bc4f658dcb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 663723394}
+    - targetCorrespondingSourceObject: {fileID: 5833933183029564935, guid: fe0aa44321169204788a54bc4f658dcb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 663723397}
   m_SourcePrefab: {fileID: 100100000, guid: fe0aa44321169204788a54bc4f658dcb, type: 3}
 --- !u!1 &130854769 stripped
 GameObject:
@@ -517,6 +520,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &130854772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130854769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22e56113d1a2f049b075bf9bac9cc9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOneMeter: {fileID: 6495624}
+  playerTwoMeter: {fileID: 6495624}
 --- !u!1 &157378011
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +732,20 @@ MonoBehaviour:
   gasOne: 0
   gasTwo: 0
   meter: {fileID: 6495624}
+--- !u!114 &663723397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663723392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22e56113d1a2f049b075bf9bac9cc9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOneMeter: {fileID: 6495624}
+  playerTwoMeter: {fileID: 6495624}
 --- !u!1 &800974149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,6 +1804,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 152008884107063782, guid: d5ce6fc1f5d1a5048ba5577d8995c446, type: 3}
       insertIndex: -1
       addedObject: {fileID: 130854770}
+    - targetCorrespondingSourceObject: {fileID: 152008884107063782, guid: d5ce6fc1f5d1a5048ba5577d8995c446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 130854772}
   m_SourcePrefab: {fileID: 100100000, guid: d5ce6fc1f5d1a5048ba5577d8995c446, type: 3}
 --- !u!1001 &2137396434
 PrefabInstance:
