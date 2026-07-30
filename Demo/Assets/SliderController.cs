@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class SliderControllertwo : MonoBehaviour
+public class SliderController : MonoBehaviour
 {
     public Text valueText;
-    int progresstwo = 0;
+    int progress = 0;
     public Slider slider;
 
 
@@ -16,8 +16,8 @@ public class SliderControllertwo : MonoBehaviour
         valueText.text = value.ToString();
     }
 
-    public void UpdateProgresstwo(){
-        progresstwo++;
-        slider.value = progresstwo;
+    public void UpdateProgress(){
+        progress++;
+        slider.value = progress;
     }
 }
