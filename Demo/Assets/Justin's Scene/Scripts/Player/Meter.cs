@@ -8,8 +8,8 @@ public class Meter : MonoBehaviour
     public Rigidbody2D playerDos;
 
     public float speed;
-    public int playerOneMeter = 0;
-    public int playerTwoMeter = 0;
+    public float playerOneMeter = 0f;
+    public float playerTwoMeter = 0f;
     
     // Start is called before the first frame update
     void Start()

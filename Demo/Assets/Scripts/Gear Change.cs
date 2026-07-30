@@ -6,6 +6,8 @@ using UnityEngine;
 public class GearChange : MonoBehaviour
 
 {
+    public Accelerate gasOne;
+    public Meter playerOneMeter;
     public Accelerate gears;
     public Meter m;
 
