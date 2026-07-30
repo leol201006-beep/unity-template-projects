@@ -9,16 +9,16 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Templates/Landon.unity
+    path: Assets/TEMPLATES/Landon.unity
     guid: 02b8391ba5c3447428a2991fd0df222c
   - enabled: 1
-    path: Assets/Templates/TopDown.unity
+    path: Assets/TEMPLATES/TopDown.unity
     guid: bda85c0fb15bd2c47aac3a8a032f424d
   - enabled: 1
-    path: Assets/Templates/Player 1 Winning Screen.unity
+    path: Assets/TEMPLATES/Player 1 Winning Screen.unity
     guid: 559f6065b6a5f264da4de9c1b86ade85
   - enabled: 1
-    path: Assets/Templates/Player 2 Winning Screen.unity
+    path: Assets/TEMPLATES/Player 2 Winning Screen.unity
     guid: 754a223a3e9e834469f5a4a41742dd75
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
