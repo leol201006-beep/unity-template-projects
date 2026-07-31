@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChange : MonoBehaviour
+public class backtomainmenu : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void GoToSceneTwo()
+    public void BackToTheMainMenu()
     {
-        SceneManager.LoadScene("James");
+        SceneManager.LoadScene("Landon");
     }
 
 
