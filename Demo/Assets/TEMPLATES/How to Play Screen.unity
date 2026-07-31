@@ -645,8 +645,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A competitive two-player car racing game  that decides the ultimate racing
-    champion. Out-compete the opponent by repetitively pressing "W" (for player 1)
+  m_text: 'A competitive two-player car racing game that decides the ultimate racing
+    champion. Outcompete the opponent by repetitively pressing "W" (for player 1)
     or "Q" (for player 2) to accelerate a car! Players who are behind can switch
     gears to gain distance and catch up to their opponent. Try to gain as much distance
     as possible to win!

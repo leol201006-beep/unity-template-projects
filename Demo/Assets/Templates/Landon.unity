@@ -514,7 +514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Name
+  m_text: Gearshift
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 131604bf083bfe540838bc9d4f742b57, type: 2}
   m_sharedMaterial: {fileID: 2429444565411084716, guid: 131604bf083bfe540838bc9d4f742b57, type: 2}
