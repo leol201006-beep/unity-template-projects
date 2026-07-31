@@ -16,12 +16,12 @@ public class WinCondition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerOneMeter.playerOneMeter >= 24)
+        if(playerOneMeter.playerOneMeter >= 15)
         {
             SceneManager.LoadScene("Player 1 Winning Screen");
         }
 
-        if(playerTwoMeter.playerTwoMeter >= 24)
+        if(playerTwoMeter.playerTwoMeter >= 15)
         {
             SceneManager.LoadScene("Player 2 Winning Screen");
         }
