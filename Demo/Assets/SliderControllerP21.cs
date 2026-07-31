@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class SliderController : MonoBehaviour
+public class SliderController2 : MonoBehaviour
 {
-    public GearChange gchange;
+    public GearChangeP2 gchange2;
 
     public Text valueText;
     int progress = 0;
@@ -14,10 +14,10 @@ public class SliderController : MonoBehaviour
 
     void Update()
     {
-        if (gchange.press_one)
+        if (gchange2.press_two)
+        
         {
-            if(Input.GetKeyDown(KeyCode.E))
-            {
+            if(Input.GetKeyDown(KeyCode.O)){
                 slider.value += 1;
                 Debug.Log("lineran");
             }
@@ -26,7 +26,7 @@ public class SliderController : MonoBehaviour
 
 
     //display text value but we dont need that now
-    public void OnSliderChanged(int value){
+    public void OnSliderChanged2(int value){
         valueText.text = value.ToString();
     }
 
