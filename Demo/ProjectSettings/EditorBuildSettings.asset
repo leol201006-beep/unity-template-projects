@@ -20,11 +20,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TEMPLATES/Player 2 Winning Screen.unity
     guid: 754a223a3e9e834469f5a4a41742dd75
-  - enabled: 1
-    path: Assets/TEMPLATES/How to Play Screen.unity
-    guid: 3315b5d55431b824baad3d2f9bb0e382
-  - enabled: 1
-    path: Assets/TEMPLATES/James.unity
-    guid: dd4ffa4ff5066fa48addf25b01b36ec0
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuitBtn : MonoBehaviour
+public class WinCondition : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void QuitGame() 
+    void Start()
     {
-        Application.Quit();
+        
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }

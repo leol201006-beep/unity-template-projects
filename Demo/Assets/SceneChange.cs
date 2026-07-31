@@ -8,7 +8,7 @@ public class SceneChange : MonoBehaviour
     // Start is called before the first frame update
     public void GoToSceneTwo()
     {
-        SceneManager.LoadScene("James");
+        SceneManager.LoadScene("TopDown");
     }
 
 
